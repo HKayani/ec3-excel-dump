@@ -10,13 +10,6 @@ accomplish simply.
 
 _"Programmers are the laziest, we write code so that we don't have to do anything ourselves."_
 
-```
-***************************************************************
-********************* TALK TO MONTY ABOUT *********************
-********************* WORK LEARN AND GROW *********************
-***************************************************************
-```
-
 
 ## Todo
  - ~~(#001) Push to Git~~

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>EC3 Excel Dump</title>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+		<script type="text/javascript" src="{% static 'script.js' %}"></script>
+		<script type="text/javascript" src="{% static 'jquery-3.4.1.min.js' %}"></script>
+		<script type="text/javascript">
+			var reports = [];
+		</script>
+	</head>
+	<body>
+		<h2>EC3 Excel Dump</h2>
+		<div class="container">
+			{% for report in reports %}
+			<div class="card">
+				<b>Report for {{ report.cover_date|date:"M, Y" }}</b><br>
+				<span>Account File Crawled: </span>
+				{% if not report.account_file_crawled and not report.meter_file_crawled %}
+				<script>reports.push({{ report.id }});</script>
+				{% endif %}
+				{% if report.account_file_crawled %}
+					{% if report.account_crawl_result == 1 %}
+					<span class="success">Processed!</span>
+					{% else %}
+					<span class="fail">{{ report.account_crawl_msg }} ({{ report.hex_account_crawl }})</span><br>
+					{% endif %}
+				{% else %}
+					<span id="account{{ report.id }}" class="waiting">Currently Processing...</span>
+				{% endif %}
+				<br>
+				<span>Meter File Crawled: </span>
+				{% if report.meter_file_crawled %}
+					{% if report.meter_crawl_result == 1 %}
+					<span class="success">Processed!</span>
+					{% else %}
+					<span class="fail">{{ report.meter_crawl_msg }} ({{ report.hex_meter_crawl }})</span><br>
+					{% endif %}
+				{% else %}
+					<span id="meter{{ report.id }}" class="waiting">Currently Processing...</span>
+				{% endif %}
+				<br>
+				{% if report.meter_crawl_result == 1 and report.account_crawl_result == 1 %}
+				<div id="link{{ report.id }}" class="small">
+					<a href="ec3/viewreport/{{ report.id }}">View Report</a>
+				</div>
+				{% else %}
+				<div id="link{{ report.id }}"></div>
+				{% endif %}
+				<span style="font-size: 10px;">Submitted on {{ report.add_date }}</span>
+			</div>
+			{% empty %}
+			<div style="margin: 8px;">
+				<b>No previous reports found!</b>
+			</div>
+			{% endfor %}
+			<div style="margin: 8px;">
+				<form method="post" enctype="multipart/form-data">
+					{% csrf_token %}
+					{{ form.as_p }}
+					<button type="submit">Upload</button>
+				</form>
+			</div>
+		</div>
+		<script> setupRequests(); </script>
+	</body>
+</html>

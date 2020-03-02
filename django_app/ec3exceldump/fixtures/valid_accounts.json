@@ -1,0 +1,82 @@
+[
+	{
+		"model": "ec3exceldump.report",
+		"pk": 518,
+		"fields": {
+			"cover_date": "2019-02-01",
+			"add_date": "2019-02-01T00:00:00+00:00",
+			"meter_file": "does/not/exist",
+			"account_file": "exist/not/does"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 20,
+		"fields": {
+			"report": 518,
+			"college": "a",
+			"billing_period": "2019-02-01",
+			"account_number": "0772303278814083449915325804935161791276669491258821063647535240",
+			"resource_type": "E",
+			"billed_amount": "100000000.01",
+			"energy_usage": "2147483647",
+			"demand_usage": "-2147483648"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 21,
+		"fields": {
+			"report": 518,
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": "005481",
+			"resource_type": "G",
+			"billed_amount": "999999999.99",
+			"energy_usage": "-2147483648",
+			"demand_usage": "2147483647"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 22,
+		"fields": {
+			"report": 518,
+			"college": "Some Very Long And Arbitrary College Title That Doesn't Need To Be This Long",
+			"billing_period": "2019-02-01",
+			"account_number": "0500",
+			"resource_type": "S",
+			"billed_amount": "0",
+			"energy_usage": "12399",
+			"demand_usage": "4832"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 23,
+		"fields": {
+			"report": 518,
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": "500",
+			"resource_type": "E",
+			"billed_amount": "4793.54",
+			"energy_usage": "-8181",
+			"demand_usage": "-509"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 24,
+		"fields": {
+			"report": 518,
+			"college": "New York City College of Technology",
+			"billing_period": "2019-02-01",
+			"account_number": "74736",
+			"resource_type": "G",
+			"billed_amount": "0.01",
+			"energy_usage": "9999",
+			"demand_usage": "1"
+		}
+	}
+]

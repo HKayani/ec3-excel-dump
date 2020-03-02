@@ -1,0 +1,92 @@
+[
+	{
+		"model": "ec3exceldump.report",
+		"pk": 247,
+		"fields": {
+			"cover_date": "2019-02-01",
+			"add_date": "2019-02-01T00:00:00+00:00",
+			"meter_file": "does/not/exist",
+			"account_file": "exist/not/does"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 2470,
+		"fields": {
+			"college": "NYCCT",
+			"billing_period": "2019-02-01",
+			"account_number": "291",
+			"energy_usage": "3402",
+			"report": 247,
+			"resource_type": "E",
+			"demand_usage": "532",
+			"billed_amount": "420.69"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 20,
+		"fields": {
+			"report": 247,
+			"account": 2470,
+			"meter_number": "one",
+			"energy_usage": "95",
+			"demand_usage": "28"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 21,
+		"fields": {
+			"report": 247,
+			"account": 2470,
+			"meter_number": null,
+			"energy_usage": "421",
+			"demand_usage": "139"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 22,
+		"fields": {
+			"report": 247,
+			"account": 2470,
+			"meter_number": "10",
+			"energy_usage": null,
+			"demand_usage": "875"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 23,
+		"fields": {
+			"report": 247,
+			"account": 2470,
+			"meter_number": "11",
+			"energy_usage": "71661",
+			"demand_usage": null
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 24,
+		"fields": {
+			"report": 247,
+			"account": 2470,
+			"meter_number": "12",
+			"energy_usage": null,
+			"demand_usage": null
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 25,
+		"fields": {
+			"report": 247,
+			"account": 2470,
+			"meter_number": null,
+			"energy_usage": null,
+			"demand_usage": null
+		}
+	}
+]

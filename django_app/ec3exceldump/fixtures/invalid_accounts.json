@@ -1,0 +1,124 @@
+[
+	{
+		"model": "ec3exceldump.report",
+		"pk": 112,
+		"fields": {
+			"cover_date": "2019-02-01",
+			"add_date": "2019-02-01T00:00:00+00:00",
+			"meter_file": "does/not/exist",
+			"account_file": "exist/not/does"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 1,
+		"fields": {
+			"college": "Pork College",
+			"billing_period": "2019-02-01",
+			"account_number": "ASTROWORLD",
+			"energy_usage": "12321",
+			"report": 112,
+			"resource_type": "S",
+			"demand_usage": "202",
+			"billed_amount": "525.6"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 2,
+		"fields": {
+			"college": "Bork College",
+			"billing_period": "2019-02-01",
+			"account_number": "502",
+			"energy_usage": "999",
+			"report": 112,
+			"resource_type": "N",
+			"demand_usage": "999",
+			"billed_amount": "9.99"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 3,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": "503N",
+			"energy_usage": "1165",
+			"report": 112,
+			"resource_type": "E",
+			"demand_usage": "342",
+			"billed_amount": "723.56"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 4,
+		"fields": {
+			"college": "Dork College",
+			"billing_period": "2019-02-01",
+			"account_number": "Russia",
+			"energy_usage": "-2",
+			"report": 112,
+			"resource_type": "E",
+			"demand_usage": "-666",
+			"billed_amount": "0.001"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 5,
+		"fields": {
+			"college": "Fork College",
+			"billing_period": "2019-02-01",
+			"account_number": "507.0",
+			"energy_usage": "0",
+			"report": 112,
+			"resource_type": "E",
+			"demand_usage": "0",
+			"billed_amount": "0"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 6,
+		"fields": {
+			"college": "Work College",
+			"billing_period": "2019-02-01",
+			"account_number": "508",
+			"energy_usage": "0",
+			"report": 112,
+			"resource_type": "T",
+			"demand_usage": "0",
+			"billed_amount": "0"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 7,
+		"fields": {
+			"college": null,
+			"billing_period": "2019-02-01",
+			"account_number": "508",
+			"energy_usage": "0",
+			"report": 112,
+			"resource_type": "E",
+			"demand_usage": "0",
+			"billed_amount": "0"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 9,
+		"fields": {
+			"college": null,
+			"billing_period": null,
+			"account_number": null,
+			"energy_usage": null,
+			"report": 112,
+			"resource_type": "E",
+			"demand_usage": null,
+			"billed_amount": null
+		}
+	}
+]

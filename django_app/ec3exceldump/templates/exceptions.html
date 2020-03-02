@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>EC3 Excel Dump</title>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+		<script type="text/javascript" src="{% static 'exceptions-script.js' %}"></script>
+		<script type="text/javascript" src="{% static 'jquery-3.4.1.min.js' %}"></script>
+	</head>
+	<body>
+		<h2>EC3 Excel Dump</h2>
+		<h3>Exception Report for {{ report.cover_date|date:"M, Y" }}</h3>
+		<div class="bottombar">
+			<div class="half">
+				<b>There are {{ accts.count|add:mtrs.count }} exceptions</b>
+			</div>
+			<div class="half">
+				<button onclick="window.location = '/ec3/viewreport/{{ report.id }}';">Back to Report View</button>
+			</div>
+		</div>
+		<table id="tbl">
+			<tr>
+				<th style="width: 20%;">Row</th>
+				<th style="width: 80%;">Issues</th>
+			</tr>
+			<tr colspan="2"><td><b>Accounts</b><td></tr>
+			{% for acct in accts %}
+			<tr>
+				<td>{{ acct.excel_row }}</td>
+				<td>
+					{{ acct.list_issues|safe }}
+					<button style="margin: 0 4px;" onclick="retrieve('account', {{ acct.account.id }});">View Account Details</button>
+					Account is
+					<select id="sct{{ acct.id }}" onchange="updateInclude({{ acct.id }});">
+						{% if acct.account.included %}
+						<option selected="selected">Included</option>
+						<option>Excluded</option>
+						{% else %}
+						<option>Included</option>
+						<option selected="selected">Excluded</option>
+						{% endif %}
+					</select>
+				</td>
+			</tr>
+			{% endfor %}
+			<tr colspan="2"><td><b>Meters</b><td></tr>
+			{% for mtr in mtrs %}
+			<tr>
+				<td>{{ mtr.excel_row }}</td>
+				<td>
+					{{ mtr.list_issues|safe }}
+					<button style="margin: 0 4px;" onclick="retrieve('meter', {{ mtr.meter.id }});">View Meter Details</button>
+					Meter is
+					<select id="sct{{ mtr.id }}" onchange="updateInclude({{ mtr.id }});">
+						{% if mtr.meter.included %}
+						<option selected="selected">Included</option>
+						<option>Excluded</option>
+						{% else %}
+						<option>Included</option>
+						<option selected="selected">Excluded</option>
+						{% endif %}
+					</select>
+				</td>
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
+</html>

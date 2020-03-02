@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>EC3 Excel Dump</title>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+		<script type="text/javascript" src="{% static 'jquery-3.4.1.min.js' %}"></script>
+		<script type="text/javascript" src="{% static 'viewreport.js' %}"></script>
+	</head>
+	<body>
+		<h2>EC3 Excel Dump</h2>
+		<h3>Report for {{ report.cover_date|date:"M, Y" }}</h3>
+		<div class="bottombar">
+			<div class="half">
+				<div class="small">
+					<button onclick="window.location = '/ec3/exceptions/{{ report.id }}';">View Report Exceptions</button>
+					<button onclick="window.location = '/ec3/createcsv/{{ report.id }}';">Generate Full Report CSV</button>
+					<button onclick="window.location = '/ec3/createcsv/{{ report.id }}?{{ search|safe }}';">Generate Search CSV</button>
+				</div>
+				<b>Accounts ({{ size }})</b>
+			</div>
+			<div class="half">
+				<div style="width: 100%; height: 100%; border: 1px solid gray;">
+					<form onsubmit="return doSearch({{ report.id }});">
+						<div class="small">
+							<label>Start Date</label><br>
+							<input type="text" pattern="[0-9]{1,2}" name="start_month" id="start_month" placeholder="MM">
+							<span>/</span>
+							<input type="text" pattern="[0-9]{1,4}" name="start_year" id="start_year" placeholder="YYYY">
+							<br>
+						</div>
+
+						<div class="small">
+							<label>End Date</label><br>
+							<input type="text" pattern="[0-9]{1,2}" name="end_month" id="end_month" placeholder="MM">
+							<span>/</span>
+							<input type="text" pattern="[0-9]{1,4}" name="end_year" id="end_year" placeholder="YYYY">
+							<br>
+						</div>
+						<div class="fail lr" id="search_errors"></div>
+						<div class="small">
+							<input type="submit" value="Search">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		{% if accounts %}
+		<center class="pg">
+			{% if page > 1 %}
+			<a class="pgbtn" href="?{{ search }}&page=1">&laquo;</a>
+			{% endif %}
+			{% if page > 2 %}
+			<a class="pgbtn" href="?{{ search }}&page={{ p.previous_page_number }}">{{ p.previous_page_number }}</a>
+			{% endif %}
+			<span class="pgbtn">{{ page }}</span>
+			{% if page < num_pages|add:"-1" %}
+			<a class="pgbtn" href="?{{ search }}&page={{ p.next_page_number }}">{{ p.next_page_number }}</a>
+			{% endif %}
+			{% if page < num_pages %}
+			<a class="pgbtn" href="?{{ search }}&page={{ num_pages }}">&raquo;</a>
+			{% endif %}
+		</center>
+		<table id="tbl">
+			<tr>
+				<th>Campus</th>
+				<th>Billing Period</th>
+				<th>Account Number</th>
+				<th>Resource Type</th>
+				<th>Usage</th>
+				<th>Demand</th>
+			</tr>
+			{% for account in accounts %}
+			<tr>
+				<td>{{ account.college }}</td>
+				<td>{{ account.billing_period|date:"M, Y" }}</td>
+				<td>{{ account.account_number }}</td>
+				<td>{{ account.get_resource_type }}</td>
+				<td>{{ account.energy_usage }}</td>
+				<td>{{ account.demand_usage }}</td>
+			</tr>
+			{% endfor %}
+		</table>
+		{% else %}
+		<h3 class="fail"><b><i>No registered accounts for report!</i></b></h3>
+		{% endif %}
+	</body>
+</html>

@@ -1,0 +1,2812 @@
+[
+	{
+		"model": "ec3exceldump.report",
+		"pk": 67889,
+		"fields": {
+			"cover_date": "2019-05-01",
+			"add_date": "2019-08-06 17:19:54",
+			"meter_file": "lmao",
+			"account_file": "ayyy"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 1,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142073,
+			"energy_usage": "3323",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2817",
+			"billed_amount": "20042.64"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 2,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738030,
+			"energy_usage": "7703",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1433",
+			"billed_amount": "14321.28"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 3,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738031,
+			"energy_usage": "4862",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3159",
+			"billed_amount": "15366.57"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 4,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738032,
+			"energy_usage": "2232",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2025",
+			"billed_amount": "608.16"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 5,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142074,
+			"energy_usage": "9755",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4246",
+			"billed_amount": "45216.98"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 6,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142075,
+			"energy_usage": "1650",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1273",
+			"billed_amount": "39225.54"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 7,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142076,
+			"energy_usage": "3641",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2989",
+			"billed_amount": "27041.47"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 8,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738033,
+			"energy_usage": "5282",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5141",
+			"billed_amount": "86916.45"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 9,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738034,
+			"energy_usage": "4896",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2930",
+			"billed_amount": "66808.17"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 10,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738035,
+			"energy_usage": "7378",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6854",
+			"billed_amount": "35876.50"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 11,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142077,
+			"energy_usage": "1676",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "538",
+			"billed_amount": "45699.13"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 12,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738036,
+			"energy_usage": "5258",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3770",
+			"billed_amount": "48134.68"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 13,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738037,
+			"energy_usage": "3530",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1829",
+			"billed_amount": "2116.46"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 14,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738038,
+			"energy_usage": "3053",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1647",
+			"billed_amount": "72559.20"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 15,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142078,
+			"energy_usage": "2571",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "133",
+			"billed_amount": "33239.53"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 16,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738039,
+			"energy_usage": "2571",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2404",
+			"billed_amount": "77546.16"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 17,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738040,
+			"energy_usage": "1359",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "276",
+			"billed_amount": "99742.9"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 18,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738041,
+			"energy_usage": "9765",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2764",
+			"billed_amount": "95771.68"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 19,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142079,
+			"energy_usage": "5423",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2655",
+			"billed_amount": "39841.87"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 20,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142080,
+			"energy_usage": "5181",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "63",
+			"billed_amount": "90875.30"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 21,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142081,
+			"energy_usage": "1283",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "254",
+			"billed_amount": "23848.64"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 22,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738042,
+			"energy_usage": "8828",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6444",
+			"billed_amount": "85500.99"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 23,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738043,
+			"energy_usage": "6644",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2568",
+			"billed_amount": "74973.57"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 24,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142082,
+			"energy_usage": "7399",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1272",
+			"billed_amount": "67914.40"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 25,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738044,
+			"energy_usage": "5578",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1234",
+			"billed_amount": "82012.11"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 26,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738045,
+			"energy_usage": "9339",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4540",
+			"billed_amount": "36167.22"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 27,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142083,
+			"energy_usage": "9895",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6859",
+			"billed_amount": "2759.74"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 28,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142084,
+			"energy_usage": "6005",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3917",
+			"billed_amount": "45672.59"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 29,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738046,
+			"energy_usage": "2466",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1464",
+			"billed_amount": "35650.28"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 30,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738047,
+			"energy_usage": "1974",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "238",
+			"billed_amount": "71676.19"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 31,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738048,
+			"energy_usage": "1061",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "53",
+			"billed_amount": "87556.69"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 32,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738049,
+			"energy_usage": "8959",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4049",
+			"billed_amount": "43563.57"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 33,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142085,
+			"energy_usage": "8757",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "8132",
+			"billed_amount": "48075.46"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 34,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142086,
+			"energy_usage": "2854",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1429",
+			"billed_amount": "47963.47"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 35,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738050,
+			"energy_usage": "7607",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6182",
+			"billed_amount": "77923.94"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 36,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738051,
+			"energy_usage": "6030",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2754",
+			"billed_amount": "93861.67"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 37,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738052,
+			"energy_usage": "7380",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "327",
+			"billed_amount": "5472.71"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 38,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142087,
+			"energy_usage": "4427",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3229",
+			"billed_amount": "12522.94"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 39,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142088,
+			"energy_usage": "1474",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "348",
+			"billed_amount": "59527.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 40,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142089,
+			"energy_usage": "8819",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "8692",
+			"billed_amount": "76040.46"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 41,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738053,
+			"energy_usage": "3575",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "716",
+			"billed_amount": "82368.41"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 42,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738054,
+			"energy_usage": "2868",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2209",
+			"billed_amount": "93644.84"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 43,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142090,
+			"energy_usage": "8164",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2271",
+			"billed_amount": "17741.92"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 44,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142091,
+			"energy_usage": "7534",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1308",
+			"billed_amount": "69983.99"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 45,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738055,
+			"energy_usage": "2856",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "847",
+			"billed_amount": "59596.94"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 46,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738056,
+			"energy_usage": "3190",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1815",
+			"billed_amount": "51749.83"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 47,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142092,
+			"energy_usage": "8688",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "107",
+			"billed_amount": "21998.45"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 48,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142093,
+			"energy_usage": "5519",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "485",
+			"billed_amount": "51822.95"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 49,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142094,
+			"energy_usage": "8118",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "113",
+			"billed_amount": "72201.71"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 50,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142095,
+			"energy_usage": "5678",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4952",
+			"billed_amount": "54193.93"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 51,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142096,
+			"energy_usage": "531",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "49",
+			"billed_amount": "63944.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 52,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738057,
+			"energy_usage": "6644",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6378",
+			"billed_amount": "99090.94"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 53,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738058,
+			"energy_usage": "5518",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1517",
+			"billed_amount": "86761.19"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 54,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738059,
+			"energy_usage": "7707",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6307",
+			"billed_amount": "58027.41"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 55,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738060,
+			"energy_usage": "9687",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "34",
+			"billed_amount": "9894.31"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 56,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142097,
+			"energy_usage": "3256",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "524",
+			"billed_amount": "60443.60"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 57,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142098,
+			"energy_usage": "2925",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1202",
+			"billed_amount": "69806.76"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 58,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738061,
+			"energy_usage": "1124",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1041",
+			"billed_amount": "93282.56"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 59,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738062,
+			"energy_usage": "5085",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3514",
+			"billed_amount": "17186.96"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 60,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738063,
+			"energy_usage": "2220",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1472",
+			"billed_amount": "28653.63"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 61,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142099,
+			"energy_usage": "6394",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5502",
+			"billed_amount": "64981.39"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 62,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738064,
+			"energy_usage": "1866",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1112",
+			"billed_amount": "62528.71"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 63,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142100,
+			"energy_usage": "9152",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "122",
+			"billed_amount": "94987.55"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 64,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142101,
+			"energy_usage": "5069",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4178",
+			"billed_amount": "61055.64"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 65,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142102,
+			"energy_usage": "1224",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "75",
+			"billed_amount": "4306.27"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 66,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738065,
+			"energy_usage": "82",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "29",
+			"billed_amount": "14684.11"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 67,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142103,
+			"energy_usage": "6268",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "373",
+			"billed_amount": "46767.31"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 68,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142104,
+			"energy_usage": "4553",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1126",
+			"billed_amount": "77044.27"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 69,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142105,
+			"energy_usage": "1616",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "350",
+			"billed_amount": "66309.63"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 70,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738066,
+			"energy_usage": "203",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "101",
+			"billed_amount": "60359.92"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 71,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738067,
+			"energy_usage": "9511",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "7460",
+			"billed_amount": "33055.62"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 72,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738068,
+			"energy_usage": "6535",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6312",
+			"billed_amount": "86941.55"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 73,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142106,
+			"energy_usage": "6932",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1142",
+			"billed_amount": "40048.93"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 74,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738069,
+			"energy_usage": "671",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "452",
+			"billed_amount": "85018.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 75,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738070,
+			"energy_usage": "2622",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "68",
+			"billed_amount": "46098.34"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 76,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738071,
+			"energy_usage": "8762",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1716",
+			"billed_amount": "79704.85"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 77,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142107,
+			"energy_usage": "4456",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4161",
+			"billed_amount": "34636.55"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 78,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142108,
+			"energy_usage": "8480",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2110",
+			"billed_amount": "5702.85"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 79,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142109,
+			"energy_usage": "9048",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5986",
+			"billed_amount": "79569.56"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 80,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142110,
+			"energy_usage": "6249",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2586",
+			"billed_amount": "80649.21"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 81,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142111,
+			"energy_usage": "1138",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "882",
+			"billed_amount": "77023.15"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 82,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738072,
+			"energy_usage": "9849",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "7026",
+			"billed_amount": "50172.68"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 83,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142112,
+			"energy_usage": "4480",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4163",
+			"billed_amount": "67765.33"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 84,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142113,
+			"energy_usage": "8502",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5660",
+			"billed_amount": "79647.73"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 85,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142114,
+			"energy_usage": "442",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "16",
+			"billed_amount": "73141.17"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 86,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738073,
+			"energy_usage": "6359",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3514",
+			"billed_amount": "54756.92"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 87,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142115,
+			"energy_usage": "6900",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5317",
+			"billed_amount": "6007.12"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 88,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142116,
+			"energy_usage": "1122",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "206",
+			"billed_amount": "33162.35"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 89,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738074,
+			"energy_usage": "1812",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1214",
+			"billed_amount": "59568.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 90,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738075,
+			"energy_usage": "587",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "34",
+			"billed_amount": "46499.48"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 91,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738076,
+			"energy_usage": "9524",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "425",
+			"billed_amount": "11117.56"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 92,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738077,
+			"energy_usage": "929",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "81",
+			"billed_amount": "72001.4"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 93,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738078,
+			"energy_usage": "593",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "306",
+			"billed_amount": "71044.12"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 94,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738079,
+			"energy_usage": "5350",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4425",
+			"billed_amount": "6573.30"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 95,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142117,
+			"energy_usage": "716",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "269",
+			"billed_amount": "8789.66"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 96,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142118,
+			"energy_usage": "7703",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6599",
+			"billed_amount": "45176.82"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 97,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142119,
+			"energy_usage": "1821",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1183",
+			"billed_amount": "12011.67"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 98,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142120,
+			"energy_usage": "9",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5",
+			"billed_amount": "15569.32"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 99,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738080,
+			"energy_usage": "5754",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "487",
+			"billed_amount": "7608.18"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 100,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738081,
+			"energy_usage": "1862",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "861",
+			"billed_amount": "96903.89"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 101,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738082,
+			"energy_usage": "1611",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "257",
+			"billed_amount": "30522.60"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 102,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738083,
+			"energy_usage": "2526",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "919",
+			"billed_amount": "14795.5"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 103,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142121,
+			"energy_usage": "1011",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "588",
+			"billed_amount": "78676.4"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 104,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738084,
+			"energy_usage": "8410",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5368",
+			"billed_amount": "62334.75"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 105,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738085,
+			"energy_usage": "9204",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3145",
+			"billed_amount": "31030.37"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 106,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738086,
+			"energy_usage": "9854",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "754",
+			"billed_amount": "4556.46"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 107,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738087,
+			"energy_usage": "1384",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "226",
+			"billed_amount": "10207.63"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 108,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738088,
+			"energy_usage": "2379",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "794",
+			"billed_amount": "45260.53"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 109,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738089,
+			"energy_usage": "3078",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2622",
+			"billed_amount": "13390.65"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 110,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738090,
+			"energy_usage": "5273",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5001",
+			"billed_amount": "81325.10"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 111,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738091,
+			"energy_usage": "815",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "752",
+			"billed_amount": "35788.6"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 112,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738092,
+			"energy_usage": "1910",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1335",
+			"billed_amount": "27032.89"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 113,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142122,
+			"energy_usage": "8256",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2703",
+			"billed_amount": "99022.76"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 114,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738093,
+			"energy_usage": "5189",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3142",
+			"billed_amount": "4122.42"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 115,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738094,
+			"energy_usage": "2197",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2191",
+			"billed_amount": "49845.89"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 116,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142123,
+			"energy_usage": "1024",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "326",
+			"billed_amount": "61887.64"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 117,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738095,
+			"energy_usage": "643",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "378",
+			"billed_amount": "13494.57"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 118,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738096,
+			"energy_usage": "6684",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1871",
+			"billed_amount": "22978.37"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 119,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738097,
+			"energy_usage": "7895",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5717",
+			"billed_amount": "31388.47"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 120,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142124,
+			"energy_usage": "7248",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6111",
+			"billed_amount": "7028.75"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 121,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738098,
+			"energy_usage": "9260",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "488",
+			"billed_amount": "47117.78"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 122,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738099,
+			"energy_usage": "3870",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2813",
+			"billed_amount": "98565.86"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 123,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142125,
+			"energy_usage": "8504",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3483",
+			"billed_amount": "94294.67"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 124,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142126,
+			"energy_usage": "3153",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1731",
+			"billed_amount": "73885.33"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 125,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738100,
+			"energy_usage": "8069",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6698",
+			"billed_amount": "87100.11"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 126,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738101,
+			"energy_usage": "7222",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4592",
+			"billed_amount": "91646.57"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 127,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738102,
+			"energy_usage": "117",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "107",
+			"billed_amount": "76941.94"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 128,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738103,
+			"energy_usage": "7032",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5788",
+			"billed_amount": "79731.22"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 129,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142127,
+			"energy_usage": "1427",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "122",
+			"billed_amount": "40771.18"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 130,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738104,
+			"energy_usage": "3236",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "934",
+			"billed_amount": "44342.24"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 131,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142128,
+			"energy_usage": "6300",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1439",
+			"billed_amount": "90889.66"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 132,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142129,
+			"energy_usage": "1440",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "278",
+			"billed_amount": "10586.66"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 133,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142130,
+			"energy_usage": "2049",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "894",
+			"billed_amount": "35146.10"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 134,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142131,
+			"energy_usage": "320",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "298",
+			"billed_amount": "73810.89"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 135,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738105,
+			"energy_usage": "1732",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "900",
+			"billed_amount": "18035.73"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 136,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142132,
+			"energy_usage": "4711",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2825",
+			"billed_amount": "29223.8"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 137,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738106,
+			"energy_usage": "3539",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3192",
+			"billed_amount": "1661.99"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 138,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142133,
+			"energy_usage": "3967",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2261",
+			"billed_amount": "21533.64"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 139,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738107,
+			"energy_usage": "7198",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1258",
+			"billed_amount": "47583.81"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 140,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738108,
+			"energy_usage": "3868",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1569",
+			"billed_amount": "5400.1"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 141,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738109,
+			"energy_usage": "6526",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2899",
+			"billed_amount": "72352.27"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 142,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738110,
+			"energy_usage": "3452",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "526",
+			"billed_amount": "55063.86"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 143,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142134,
+			"energy_usage": "4001",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2757",
+			"billed_amount": "59020.86"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 144,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738111,
+			"energy_usage": "4496",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4467",
+			"billed_amount": "77205.83"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 145,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142135,
+			"energy_usage": "9308",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4608",
+			"billed_amount": "97218.94"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 146,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142136,
+			"energy_usage": "924",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "832",
+			"billed_amount": "99366.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 147,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142137,
+			"energy_usage": "443",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "60",
+			"billed_amount": "13266.65"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 148,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738112,
+			"energy_usage": "2125",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1787",
+			"billed_amount": "10477.98"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 149,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738113,
+			"energy_usage": "325",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "83",
+			"billed_amount": "29177.93"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 150,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738114,
+			"energy_usage": "422",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "128",
+			"billed_amount": "33282.16"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 151,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142138,
+			"energy_usage": "3948",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1563",
+			"billed_amount": "54848.37"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 152,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142139,
+			"energy_usage": "1856",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "887",
+			"billed_amount": "88308.48"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 153,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142140,
+			"energy_usage": "2192",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1692",
+			"billed_amount": "18065.44"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 154,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738115,
+			"energy_usage": "6503",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6007",
+			"billed_amount": "20515.38"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 155,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142141,
+			"energy_usage": "7669",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4221",
+			"billed_amount": "66248.44"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 156,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738116,
+			"energy_usage": "2342",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1517",
+			"billed_amount": "35904.67"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 157,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738117,
+			"energy_usage": "5505",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "928",
+			"billed_amount": "76650.61"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 158,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738118,
+			"energy_usage": "6791",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5695",
+			"billed_amount": "73519.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 159,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738119,
+			"energy_usage": "9335",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "8195",
+			"billed_amount": "66080.88"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 160,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142142,
+			"energy_usage": "7070",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5369",
+			"billed_amount": "63339.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 161,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738120,
+			"energy_usage": "4627",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "282",
+			"billed_amount": "9925.83"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 162,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142143,
+			"energy_usage": "2514",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2055",
+			"billed_amount": "10952.62"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 163,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142144,
+			"energy_usage": "446",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "259",
+			"billed_amount": "70286.84"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 164,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738121,
+			"energy_usage": "8531",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "7952",
+			"billed_amount": "97355.80"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 165,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738122,
+			"energy_usage": "4686",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "905",
+			"billed_amount": "87330.71"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 166,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142145,
+			"energy_usage": "1325",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "391",
+			"billed_amount": "87353.61"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 167,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738123,
+			"energy_usage": "7716",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "46",
+			"billed_amount": "47848.25"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 168,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142146,
+			"energy_usage": "9851",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2512",
+			"billed_amount": "83061.88"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 169,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-01-01",
+			"account_number": 5679478240380738124,
+			"energy_usage": "2844",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1224",
+			"billed_amount": "25874.45"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 170,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738125,
+			"energy_usage": "9675",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6265",
+			"billed_amount": "97544.86"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 171,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738126,
+			"energy_usage": "266",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "48",
+			"billed_amount": "9982.56"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 172,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142147,
+			"energy_usage": "3194",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "6",
+			"billed_amount": "18904.78"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 173,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142148,
+			"energy_usage": "2300",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2119",
+			"billed_amount": "12748.54"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 174,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142149,
+			"energy_usage": "5941",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "563",
+			"billed_amount": "59551.51"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 175,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142150,
+			"energy_usage": "4329",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2678",
+			"billed_amount": "65213.25"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 176,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142151,
+			"energy_usage": "6324",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1179",
+			"billed_amount": "67966.91"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 177,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142152,
+			"energy_usage": "9553",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "98",
+			"billed_amount": "69350.78"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 178,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142153,
+			"energy_usage": "635",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "493",
+			"billed_amount": "5020.16"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 179,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738127,
+			"energy_usage": "2208",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "84",
+			"billed_amount": "570.24"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 180,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142154,
+			"energy_usage": "8314",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "5677",
+			"billed_amount": "86823.20"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 181,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738128,
+			"energy_usage": "6444",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3567",
+			"billed_amount": "46633.67"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 182,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738129,
+			"energy_usage": "1346",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "318",
+			"billed_amount": "41408.99"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 183,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-02-01",
+			"account_number": 7282729742007142155,
+			"energy_usage": "7983",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "7616",
+			"billed_amount": "80848.28"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 184,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-05-01",
+			"account_number": 5679478240380738130,
+			"energy_usage": "4572",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2225",
+			"billed_amount": "93894.8"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 185,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738131,
+			"energy_usage": "2877",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "901",
+			"billed_amount": "65289.83"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 186,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142156,
+			"energy_usage": "2930",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "514",
+			"billed_amount": "99899.90"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 187,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142157,
+			"energy_usage": "4488",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2653",
+			"billed_amount": "20239.65"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 188,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738132,
+			"energy_usage": "8735",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "138",
+			"billed_amount": "71653.28"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 189,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-02-01",
+			"account_number": 5679478240380738133,
+			"energy_usage": "6608",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "4828",
+			"billed_amount": "50328.28"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 190,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-04-01",
+			"account_number": 7282729742007142158,
+			"energy_usage": "323",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "322",
+			"billed_amount": "80765.24"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 191,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142159,
+			"energy_usage": "6173",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "873",
+			"billed_amount": "46810.9"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 192,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-01-01",
+			"account_number": 7282729742007142160,
+			"energy_usage": "3075",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "650",
+			"billed_amount": "65532.69"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 193,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142161,
+			"energy_usage": "12",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1",
+			"billed_amount": "63902.56"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 194,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142162,
+			"energy_usage": "3949",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "3717",
+			"billed_amount": "44641.49"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 195,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142163,
+			"energy_usage": "188",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "160",
+			"billed_amount": "60531.78"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 196,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738134,
+			"energy_usage": "5244",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "1472",
+			"billed_amount": "74484.65"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 197,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-05-01",
+			"account_number": 7282729742007142164,
+			"energy_usage": "206",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "108",
+			"billed_amount": "61423.40"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 198,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-04-01",
+			"account_number": 5679478240380738135,
+			"energy_usage": "4130",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "2855",
+			"billed_amount": "63324.15"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 199,
+		"fields": {
+			"college": "Queens College",
+			"billing_period": "2019-03-01",
+			"account_number": 5679478240380738136,
+			"energy_usage": "8368",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "575",
+			"billed_amount": "25950.97"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 200,
+		"fields": {
+			"college": "York College",
+			"billing_period": "2019-03-01",
+			"account_number": 7282729742007142165,
+			"energy_usage": "6723",
+			"report": 67889,
+			"resource_type": "E",
+			"demand_usage": "799",
+			"billed_amount": "84163.42"
+		}
+	}
+]

@@ -1,0 +1,70 @@
+[
+	{
+		"model": "ec3exceldump.report",
+		"pk": 192,
+		"fields": {
+			"cover_date": "2019-02-01",
+			"add_date": "2019-02-01T00:00:00+00:00",
+			"meter_file": "does/not/exist",
+			"account_file": "exist/not/does"
+		}
+	},
+	{
+		"model": "ec3exceldump.account",
+		"pk": 1920,
+		"fields": {
+			"college": "NYCCT",
+			"billing_period": "2019-02-01",
+			"account_number": "88",
+			"energy_usage": "0",
+			"report": 192,
+			"resource_type": "E",
+			"demand_usage": "0",
+			"billed_amount": "0.00"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 429,
+		"fields": {
+			"report": 192,
+			"account": 1920,
+			"meter_number": "2609237730840724693351578123685162595098181606123444231985779404",
+			"energy_usage": "352",
+			"demand_usage": "18"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 430,
+		"fields": {
+			"report": 192,
+			"account": 1920,
+			"meter_number": "525600",
+			"energy_usage": "2147483647",
+			"demand_usage": "-2147483648"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 431,
+		"fields": {
+			"report": 192,
+			"account": 1920,
+			"meter_number": "20193373",
+			"energy_usage": "0",
+			"demand_usage": "-0"
+		}
+	},
+	{
+		"model": "ec3exceldump.meter",
+		"pk": 432,
+		"fields": {
+			"report": 192,
+			"account": 1920,
+			"meter_number": "0",
+			"energy_usage": "-2147483648",
+			"demand_usage": "2147483647"
+		}
+	}
+]
